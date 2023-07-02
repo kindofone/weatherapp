@@ -3,7 +3,7 @@ export function getCurrentWeather(apiData) {
   const times = apiData.hourly.time;
   const currentTime = (new Date()).getTime();
   const currentIndex = times.findIndex(time => {
-    console.log(time, currentTime);
+    // console.log(time, currentTime);
     return currentTime <= time*1000;
   });
   
