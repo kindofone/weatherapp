@@ -1,0 +1,8 @@
+.now {
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 10px 15px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}

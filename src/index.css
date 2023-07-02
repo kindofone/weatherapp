@@ -3,6 +3,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(45deg, #cd8d61, #e9a655, #f58653);
+  min-height: 100vh;
 }
 
 code {
@@ -12,7 +14,7 @@ code {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1200px 1fr;
+  grid-template-columns: 1fr 600px 1fr;
 }
 
 .grid > * {
